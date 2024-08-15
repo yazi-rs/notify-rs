@@ -165,7 +165,7 @@
 
 pub use config::{Config, RecursiveMode};
 pub use error::{Error, ErrorKind, Result};
-pub use notify_types::event::{self, Event, EventKind};
+pub use notify_types_fork::event::{self, Event, EventKind};
 use std::path::Path;
 
 pub(crate) type Receiver<T> = std::sync::mpsc::Receiver<T>;

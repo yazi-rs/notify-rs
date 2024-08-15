@@ -14,8 +14,8 @@ repository = { workspace = true }
 
 [features]
 default = ["macos_fsevent"]
-serde = ["notify-types/serde"]
-mock_instant = ["dep:mock_instant", "notify-types/mock_instant"]
+serde = ["notify-types-fork/serde"]
+mock_instant = ["dep:mock_instant", "notify-types-fork/mock_instant"]
 crossbeam-channel = ["dep:crossbeam-channel", "notify/crossbeam-channel"]
 macos_fsevent = ["notify/macos_fsevent"]
 macos_kqueue = ["notify/macos_kqueue"]
@@ -23,7 +23,7 @@ serialization-compat-6 = ["notify/serialization-compat-6"]
 
 [dependencies]
 notify = { workspace = true }
-notify-types = { workspace = true }
+notify-types-fork = { workspace = true }
 crossbeam-channel = { workspace = true, optional = true }
 file-id = { workspace = true }
 walkdir = { workspace = true }

@@ -1,8 +1,8 @@
 [package]
-name = "notify-types"
+name = "notify-types-fork"
 version = "1.0.0"
 description = "Types used by the notify crate"
-documentation = "https://docs.rs/notify-types"
+documentation = "https://docs.rs/notify-types-fork"
 readme = "../README.md"
 license = "MIT OR Apache-2.0"
 keywords = ["events", "filesystem", "notify", "watch"]

@@ -2,7 +2,7 @@
 resolver = "2"
 members = [
   "notify",
-  "notify-types",
+  "notify-types-fork",
   "notify-debouncer-mini",
   "notify-debouncer-full",
   "file-id",
@@ -39,7 +39,7 @@ nix = "0.27.0"
 notify = { path = "notify" }
 notify-debouncer-full = { path = "notify-debouncer-full" }
 notify-debouncer-mini = { path = "notify-debouncer-mini" }
-notify-types = { path = "notify-types" }
+notify-types-fork = { path = "notify-types-fork" }
 pretty_assertions = "1.3.0"
 rand = "0.8.5"
 rstest = "0.18.2"

@@ -1,5 +1,5 @@
 [package]
-name = "notify"
+name = "notify-fork"
 version = "6.1.1"
 description = "Cross-platform filesystem notification library"
 documentation = "https://docs.rs/notify"
@@ -19,13 +19,13 @@ repository = { workspace = true }
 
 [features]
 default = ["macos_fsevent"]
-serde = ["notify-types/serde"]
+serde = ["notify-types-fork/serde"]
 macos_kqueue = ["kqueue", "mio"]
 macos_fsevent = ["fsevent-sys"]
-serialization-compat-6 = ["notify-types/serialization-compat-6"]
+serialization-compat-6 = ["notify-types-fork/serialization-compat-6"]
 
 [dependencies]
-notify-types = { workspace = true }
+notify-types-fork = "1.0.0"
 crossbeam-channel = { workspace = true, optional = true }
 filetime = { workspace = true }
 libc = { workspace = true }
